@@ -6,7 +6,7 @@
 /*   By: rbutzke <rbutzke@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 08:47:19 by rbutzke           #+#    #+#             */
-/*   Updated: 2024/03/22 14:44:56 by rbutzke          ###   ########.fr       */
+/*   Updated: 2024/03/22 15:19:09 by rbutzke          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,9 @@ typedef struct s_var_array_list
 
 t_array_lst	*init_array_lst(void);
 int			ft_create_addnode_back_alst(t_array_lst *lst, char content);
+int			ft_addnode_back(t_array_lst *lst, t_node_alst *node);
 int			ft_create_addnode_front_alst(t_array_lst *lst, char content);
+int			ft_addnode_front(t_array_lst *lst, t_node_alst *node);
 int			ft_remove_node_front(t_array_lst *lst);
 int			ft_remove_node_back(t_array_lst *lst);
 int			ft_remove_specific_node(t_array_lst *lst, t_node_alst *node);

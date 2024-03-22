@@ -6,7 +6,10 @@ SRC				:= ./src/init_array_list.c\
 				./src/remove_node_back.c\
 				./src/remove_specific_node.c\
 				./src/remove_specific_content.c\
-				./src/delete_list.c
+				./src/delete_list.c\
+				./src/add_node_back.c\
+				./src/add_node_front.c\
+
 NUM_FILES		:= $(words $(SRC))
 OBJS			:= ./objs
 INCLUDES		:= -I ./include
